@@ -11,7 +11,7 @@ import MapKit
 @available(iOS 15, macOS 11.0, *)
 public struct SSMapManager: View {
     
-    @EnvironmentObject public var vm:LocationViewModal
+    @EnvironmentObject private var vm:LocationViewModal
     
     public var body: some View {
         
